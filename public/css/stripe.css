@@ -1,0 +1,260 @@
+body {
+    font-family: "Barlow Condensed";
+}
+.container {
+    max-width: 100% !important;
+    padding: 0 15%;
+}
+
+.nft-img img {
+    width: 100%;
+}
+.main-body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.btn-pay {
+    height: 54px;
+    border-radius: 27px;
+    background: linear-gradient(
+        206.48deg,
+        #15c8ff 0%,
+        #15c8ff 0%,
+        #3f61fe 31.64%,
+        #030e8f 67.48%,
+        #07010d 100%
+    );
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Barlow";
+}
+.panel {
+    margin-left: 10%;
+}
+.nft-price h3 {
+    font-size: 40px !important;
+    font-weight: bold;
+    font-family: "Barlow Condensed";
+}
+.nft-price h5 {
+    margin-top: 20px;
+    font-size: 20px !important;
+    color: rgb(0, 0, 0, 0.6);
+}
+.nft-price a {
+    color: #3f61fe !important;
+    cursor: pointer;
+}
+.nft-price a:hover {
+    text-decoration: none;
+}
+.pay-button {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+.nft-logo {
+    color: #3f61fe;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.nft-logo div {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        206.48deg,
+        #15c8ff 0%,
+        #15c8ff 0%,
+        #3f61fe 31.64%,
+        #030e8f 67.48%,
+        #07010d 100%
+    );
+    border-radius: 50%;
+}
+.nft-logo span {
+    margin-left: 5px;
+}
+.nft-left {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.nft-left div {
+    width: 50%;
+}
+.nft-left p {
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.nft-left span {
+    font-weight: bold;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.details-body p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+.details-body p span {
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+}
+.detail-type {
+    font-weight: bold;
+}
+header {
+    height: 160px;
+    width: 100%;
+    background: linear-gradient(90deg, #001e9b, #14f9da);
+    background: linear-gradient(
+        circle,
+        #001e9b 0%,
+        #3f8afe 49.25%,
+        #14f9da 100%
+    );
+}
+.header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 15%;
+}
+.header-left img {
+    margin-top: 10px;
+    width: 100%;
+}
+.header-right img {
+    width: 100%;
+}
+
+footer {
+    background-color: #001e9b;
+    width: 100%;
+    height: 230px;
+}
+.footer-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 15%;
+}
+.footer-left div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 30px;
+}
+.footer-right div {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.footer-right div a {
+    font-size: 16px;
+    color: #13c9ff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.social-icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.social-icon span {
+    color: #001e9b;
+    font-size: 22px;
+}
+.terms {
+    padding-right: 10px;
+}
+.privacy {
+    padding-left: 10px;
+}
+.footer-right div a:hover {
+    text-decoration: underline;
+}
+.form-row {
+    margin-bottom: 1em;
+}
+.form-row input {
+    height: 50px;
+    font-size: 20px;
+}
+.main-content {
+    display: block;
+}
+.content-less {
+    cursor: pointer;
+    display: none;
+}
+.hide-content {
+    display: none;
+}
+.nft-quantity select {
+    font-size: 20px;
+    height: 50px;
+}
+.nft-quantity label {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.nft-price h4 {
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10%;
+    }
+    .panel {
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    .main-body .col-md-6 {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .social-icon span {
+        font-size: 16px;
+    }
+    .footer-body {
+        padding: 2em 10%;
+    }
+
+    .footer-right {
+        margin-left: 40px;
+    }
+    .header-right img {
+        padding-left: 50px;
+    }
+    .header-body {
+        padding: 3em 10%;
+    }
+}
